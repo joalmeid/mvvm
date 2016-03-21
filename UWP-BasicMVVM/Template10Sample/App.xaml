@@ -1,0 +1,12 @@
+<common:BootStrapper 
+    x:Class="Template10Sample.App" 
+    xmlns:common="using:Template10.Common" 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:viewModels="using:Template10Sample.ViewModels">
+
+    <Application.Resources>
+        <viewModels:ViewModelLocator x:Key="ViewModelLocator" />
+    </Application.Resources>
+
+</common:BootStrapper>
